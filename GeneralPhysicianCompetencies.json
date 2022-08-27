@@ -1,0 +1,1498 @@
+{
+
+    "@context": "https://credreg.net/ctdlasn/schema/context/json",
+    "@graph": [
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "@type": "ceasn:CompetencyFramework",
+            "ceasn:creator": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a4041983-b1ae-4ad4-a43d-284a5b4b2d73"
+            ],
+            "ceasn:dateCreated": "2022-05-20T14:09:59.827Z",
+            "ceasn:dateModified": "2022-08-26T14:35:32.678Z",
+            "ceasn:description": {
+                "en-us": "General list of general physician competencies as derived from Englander R, Cameron T, Ballard AJ, Dodge J, Aschenbrener CA. Towards a Common Taxonomy of Competency Domains for Health Professionals and Competencies for Physicians. Academic Medicine. 2013;88(8):1088-1094."
+            },
+            "ceasn:hasTopChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a",
+                "https://sandbox.credentialengineregistry.org/resources/ce-48fe3ee7-40f8-493b-a445-e4301fddcd1e",
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9",
+                "https://sandbox.credentialengineregistry.org/resources/ce-70e49e6b-b49b-471e-86f3-2132e2adc941",
+                "https://sandbox.credentialengineregistry.org/resources/ce-56ccc17e-4c5c-4583-96fe-d6f5466a1d0e",
+                "https://sandbox.credentialengineregistry.org/resources/ce-f9789572-c595-420d-9ae7-8ed457118619",
+                "https://sandbox.credentialengineregistry.org/resources/ce-a33a1743-0b80-4a14-a4fe-454e64253272",
+                "https://sandbox.credentialengineregistry.org/resources/ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:name": {
+                "en-us": "General Physician Competencies by Domain"
+            },
+            "ceasn:publisher": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a4041983-b1ae-4ad4-a43d-284a5b4b2d73"
+            ],
+            "ceasn:publisherName": {
+                "en-us": [
+                    "Credential Engine Administration - Sandbox"
+                ]
+            },
+            "ceterms:ctid": "ce-8c2da966-9c5a-4d65-aa51-f2808ffab550"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a",
+            "@type": "ceasn:Competency",
+            "ceasn:comment": {
+                "en-us": [
+                    "Provide patient-centered care that is compassionate, appropriate, and effective for the treatment of health problems and the promotion of health"
+                ]
+            },
+            "ceasn:competencyCategory": {
+                "en-us": "Domain"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Patient Care"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:12:06.449Z",
+            "ceasn:dateModified": "2022-05-20T14:18:25.175Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-e5a35896-2e6c-4bd3-8812-f44c51feebf2",
+                "https://sandbox.credentialengineregistry.org/resources/ce-d6fc58fe-0f22-4b16-bcf5-67470d174449",
+                "https://sandbox.credentialengineregistry.org/resources/ce-5aa88f05-3583-466d-8d28-f122f9df510a",
+                "https://sandbox.credentialengineregistry.org/resources/ce-60fba785-1a3b-4239-b75c-1aa370560d1d",
+                "https://sandbox.credentialengineregistry.org/resources/ce-60726ade-823f-4d1d-bf3d-cb6c3d238976",
+                "https://sandbox.credentialengineregistry.org/resources/ce-e5fcfa87-b3c8-4f8a-a30a-ec1599942eae",
+                "https://sandbox.credentialengineregistry.org/resources/ce-491b47de-38b7-4037-a6d9-d779f2aaeddd",
+                "https://sandbox.credentialengineregistry.org/resources/ce-67f47d52-0632-4c3d-9b1b-89577142ef1e",
+                "https://sandbox.credentialengineregistry.org/resources/ce-2e2c1050-fa3e-420d-aa71-1168320fa66e",
+                "https://sandbox.credentialengineregistry.org/resources/ce-1c40c5ca-2c6d-466e-934a-cb54f7d10157"
+            ],
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:isTopChildOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceterms:ctid": "ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-e5a35896-2e6c-4bd3-8812-f44c51feebf2",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 1: Perform all medical, diagnostic, and surgical procedures considered essential for the area of practice"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:16:33.675Z",
+            "ceasn:dateModified": "2022-05-20T14:20:31.393Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PC 1",
+            "ceterms:ctid": "ce-e5a35896-2e6c-4bd3-8812-f44c51feebf2"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-d6fc58fe-0f22-4b16-bcf5-67470d174449",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 2: Gather essential and accurate information about patients and their condition through history-taking, physical examination, and the use of laboratory data, imaging, and other tests"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:19:06.666Z",
+            "ceasn:dateModified": "2022-05-20T14:20:06.023Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PC 2",
+            "ceterms:ctid": "ce-d6fc58fe-0f22-4b16-bcf5-67470d174449"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-5aa88f05-3583-466d-8d28-f122f9df510a",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 3: Organize and prioritize responsibilities to provide care that is safe, effective, and efficient"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:41:22.897Z",
+            "ceasn:dateModified": "2022-05-20T14:42:43.718Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PC 3",
+            "ceterms:ctid": "ce-5aa88f05-3583-466d-8d28-f122f9df510a"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-60fba785-1a3b-4239-b75c-1aa370560d1d",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 4: Interpret laboratory data, imaging studies, and other tests required for the area of practice"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:45:00.452Z",
+            "ceasn:dateModified": "2022-05-24T15:41:19.248Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PC 4",
+            "ceterms:ctid": "ce-60fba785-1a3b-4239-b75c-1aa370560d1d"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-60726ade-823f-4d1d-bf3d-cb6c3d238976",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 5: Make informed decisions about diagnostic and therapeutic interventions based on patient information and preferences, up-to-date scientific evidence, and clinical judgment"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:45:45.583Z",
+            "ceasn:dateModified": "2022-05-20T14:46:37.954Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PC 5",
+            "ceterms:ctid": "ce-60726ade-823f-4d1d-bf3d-cb6c3d238976"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-e5fcfa87-b3c8-4f8a-a30a-ec1599942eae",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 6: Develop and carry out patient management plans"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:47:24.666Z",
+            "ceasn:dateModified": "2022-05-20T14:48:07.325Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PC 6",
+            "ceterms:ctid": "ce-e5fcfa87-b3c8-4f8a-a30a-ec1599942eae"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-491b47de-38b7-4037-a6d9-d779f2aaeddd",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 7: Counsel and educate patients and their families to empower them to participate in their care and enable shared decision making"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:48:19.668Z",
+            "ceasn:dateModified": "2022-05-20T14:49:29.626Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PC 7",
+            "ceterms:ctid": "ce-491b47de-38b7-4037-a6d9-d779f2aaeddd"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-67f47d52-0632-4c3d-9b1b-89577142ef1e",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 8: Participate in the education of patients, families, students, trainees, peers, and other health professionals"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:50:05.969Z",
+            "ceasn:dateModified": "2022-05-20T14:51:02.990Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PC 8",
+            "ceterms:ctid": "ce-67f47d52-0632-4c3d-9b1b-89577142ef1e"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2e2c1050-fa3e-420d-aa71-1168320fa66e",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 9: Obtain and utilize information about individual patients, populations of patients, or communities from which patients are drawn to improve care"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:52:27.465Z",
+            "ceasn:dateModified": "2022-05-20T14:53:32.789Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PC 9",
+            "ceterms:ctid": "ce-2e2c1050-fa3e-420d-aa71-1168320fa66e"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-1c40c5ca-2c6d-466e-934a-cb54f7d10157",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 10: Continually identify, analyze, and implement new knowledge, guidelines, standards, technologies, products, or services that have been demonstrated to improve outcomes"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:53:47.423Z",
+            "ceasn:dateModified": "2022-05-20T14:54:39.226Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-98e7164b-fc52-4bbe-ba9b-29bbb7cf7e6a"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PC 10",
+            "ceterms:ctid": "ce-1c40c5ca-2c6d-466e-934a-cb54f7d10157"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-48fe3ee7-40f8-493b-a445-e4301fddcd1e",
+            "@type": "ceasn:Competency",
+            "ceasn:comment": {
+                "en-us": [
+                    "Demonstrate knowledge of established and evolving biomedical, clinical, epidemiological, and social-behavioral sciences, as well as the application of this knowledge to patient care"
+                ]
+            },
+            "ceasn:competencyCategory": {
+                "en-us": "Domain"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Knowledge for Practice"
+            },
+            "ceasn:dateCreated": "2022-05-20T14:55:13.669Z",
+            "ceasn:dateModified": "2022-05-20T14:56:10.750Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-ffdf8b04-3ed3-4532-ab3e-d5a68fdb3c1c",
+                "https://sandbox.credentialengineregistry.org/resources/ce-0184b06e-862d-4efe-a596-258bddace6b7",
+                "https://sandbox.credentialengineregistry.org/resources/ce-fd31ff7e-5168-445e-a168-b85cf74b7f13",
+                "https://sandbox.credentialengineregistry.org/resources/ce-f4d9ca45-a0f7-46e5-9187-52decbcbdb7c",
+                "https://sandbox.credentialengineregistry.org/resources/ce-2be3a39f-7eca-4790-a613-7ee40381289a",
+                "https://sandbox.credentialengineregistry.org/resources/ce-3b8d3312-966f-4c58-ad9a-5448070862d5"
+            ],
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:isTopChildOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceterms:ctid": "ce-48fe3ee7-40f8-493b-a445-e4301fddcd1e"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-ffdf8b04-3ed3-4532-ab3e-d5a68fdb3c1c",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "KP 1: Demonstrate an investigatory and analytic approach to clinical situations"
+            },
+            "ceasn:dateCreated": "2022-05-20T15:01:52.081Z",
+            "ceasn:dateModified": "2022-05-24T15:41:37.080Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-48fe3ee7-40f8-493b-a445-e4301fddcd1e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "KP 1",
+            "ceterms:ctid": "ce-ffdf8b04-3ed3-4532-ab3e-d5a68fdb3c1c"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-0184b06e-862d-4efe-a596-258bddace6b7",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "KP 2: Apply established and emerging biophysical scientific principles fundamental to health care for patients and populations"
+            },
+            "ceasn:dateCreated": "2022-05-20T15:03:40.950Z",
+            "ceasn:dateModified": "2022-05-24T15:40:38.282Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-48fe3ee7-40f8-493b-a445-e4301fddcd1e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "KP 2",
+            "ceterms:ctid": "ce-0184b06e-862d-4efe-a596-258bddace6b7"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-fd31ff7e-5168-445e-a168-b85cf74b7f13",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "KP 3: Apply established and emerging principles of clinical sciences to diagnostic and therapeutic decision\nmaking, clinical problem solving, and other aspects of evidence-based health care"
+            },
+            "ceasn:dateCreated": "2022-05-20T15:05:24.500Z",
+            "ceasn:dateModified": "2022-05-20T15:06:14.343Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-48fe3ee7-40f8-493b-a445-e4301fddcd1e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "KP 3",
+            "ceterms:ctid": "ce-fd31ff7e-5168-445e-a168-b85cf74b7f13"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-f4d9ca45-a0f7-46e5-9187-52decbcbdb7c",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "KP 4: Apply principles of epidemiological sciences to the identification of health problems, risk factors, treatment strategies, resources, and disease prevention/health promotion efforts for patients and populations"
+            },
+            "ceasn:dateCreated": "2022-05-20T15:06:26.837Z",
+            "ceasn:dateModified": "2022-05-20T15:07:06.465Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-48fe3ee7-40f8-493b-a445-e4301fddcd1e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "KP 4",
+            "ceterms:ctid": "ce-f4d9ca45-a0f7-46e5-9187-52decbcbdb7c"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2be3a39f-7eca-4790-a613-7ee40381289a",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "KP 5: Apply principles of social-behavioral sciences to provision of patient care, including assessment of the impact of psychosocial-cultural influences on health, disease, care-seeking, care-compliance, and barriers to and attitudes toward care"
+            },
+            "ceasn:dateCreated": "2022-05-20T15:07:24.822Z",
+            "ceasn:dateModified": "2022-05-20T15:08:27.530Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-48fe3ee7-40f8-493b-a445-e4301fddcd1e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "KP 5",
+            "ceterms:ctid": "ce-2be3a39f-7eca-4790-a613-7ee40381289a"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3b8d3312-966f-4c58-ad9a-5448070862d5",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "KP 6: Contribute to the creation, dissemination, application, and translation of new health care knowledge and practices"
+            },
+            "ceasn:dateCreated": "2022-05-20T15:08:51.751Z",
+            "ceasn:dateModified": "2022-05-20T15:09:49.868Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-48fe3ee7-40f8-493b-a445-e4301fddcd1e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "KP 6",
+            "ceterms:ctid": "ce-3b8d3312-966f-4c58-ad9a-5448070862d5"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9",
+            "@type": "ceasn:Competency",
+            "ceasn:comment": {
+                "en-us": [
+                    "Demonstrate the ability to investigate and evaluate their care of patients, to appraise and assimilate scientific evidence, and to continuously improve patient care based on constant self-evaluation and lifelong learning"
+                ]
+            },
+            "ceasn:competencyCategory": {
+                "en-us": "Domain"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Practice-Based Learning and Improvement"
+            },
+            "ceasn:dateCreated": "2022-05-20T15:11:50.808Z",
+            "ceasn:dateModified": "2022-05-20T15:14:14.642Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-82987828-120d-4091-bd75-c0ede2387eb4",
+                "https://sandbox.credentialengineregistry.org/resources/ce-1294d593-6d56-4ece-8033-11838f2efdb9",
+                "https://sandbox.credentialengineregistry.org/resources/ce-26272eff-b94a-4f7f-b82c-01d8e9e46d45",
+                "https://sandbox.credentialengineregistry.org/resources/ce-69a61170-41b2-48f6-931a-65c904b180b7",
+                "https://sandbox.credentialengineregistry.org/resources/ce-da6ab491-a647-494b-bdb2-ef0db60e5459",
+                "https://sandbox.credentialengineregistry.org/resources/ce-541ef00b-b6f0-48e9-b4f2-a5de25c7bf9d",
+                "https://sandbox.credentialengineregistry.org/resources/ce-f51016ed-b76c-4215-828f-290b39180661",
+                "https://sandbox.credentialengineregistry.org/resources/ce-4111af78-a1ba-4a10-87ad-de99d51da413",
+                "https://sandbox.credentialengineregistry.org/resources/ce-86688346-8827-42f6-af43-331a0c07ac93",
+                "https://sandbox.credentialengineregistry.org/resources/ce-9109e703-6eb7-43fd-8633-1769845beff0"
+            ],
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:isTopChildOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceterms:ctid": "ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-82987828-120d-4091-bd75-c0ede2387eb4",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 1: Identify strengths, deficiencies, and limits in one’s knowledge and expertise"
+            },
+            "ceasn:dateCreated": "2022-05-20T15:14:47.715Z",
+            "ceasn:dateModified": "2022-05-20T15:17:22.883Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PBLI 1",
+            "ceterms:ctid": "ce-82987828-120d-4091-bd75-c0ede2387eb4"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-1294d593-6d56-4ece-8033-11838f2efdb9",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 2: Set learning and improvement goals"
+            },
+            "ceasn:dateCreated": "2022-05-20T15:18:03.195Z",
+            "ceasn:dateModified": "2022-05-20T15:18:43.272Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PBLI 2",
+            "ceterms:ctid": "ce-1294d593-6d56-4ece-8033-11838f2efdb9"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-26272eff-b94a-4f7f-b82c-01d8e9e46d45",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 3: Identify and perform learning activities that address one’s gaps in knowledge, skills, or attitudes"
+            },
+            "ceasn:dateCreated": "2022-05-20T15:19:18.202Z",
+            "ceasn:dateModified": "2022-05-20T15:20:01.542Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PBLI 3",
+            "ceterms:ctid": "ce-26272eff-b94a-4f7f-b82c-01d8e9e46d45"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-69a61170-41b2-48f6-931a-65c904b180b7",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 4: Systematically analyze practice using quality-improvement methods and implement changes with the goal of practice improvement"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:30:06.357Z",
+            "ceasn:dateModified": "2022-05-20T16:30:45.007Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PBLI 4",
+            "ceterms:ctid": "ce-69a61170-41b2-48f6-931a-65c904b180b7"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-da6ab491-a647-494b-bdb2-ef0db60e5459",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 5: Incorporate feedback into daily practice"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:31:13.960Z",
+            "ceasn:dateModified": "2022-05-20T16:31:47.408Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PBLI 5",
+            "ceterms:ctid": "ce-da6ab491-a647-494b-bdb2-ef0db60e5459"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-541ef00b-b6f0-48e9-b4f2-a5de25c7bf9d",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 6: Locate, appraise, and assimilate evidence from scientific studies related to patients’ health problems"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:32:10.279Z",
+            "ceasn:dateModified": "2022-05-20T16:32:54.198Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PBLI 6",
+            "ceterms:ctid": "ce-541ef00b-b6f0-48e9-b4f2-a5de25c7bf9d"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-f51016ed-b76c-4215-828f-290b39180661",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 7: Use information technology to optimize learning"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:33:16.367Z",
+            "ceasn:dateModified": "2022-05-20T16:33:50.664Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PBLI 7",
+            "ceterms:ctid": "ce-f51016ed-b76c-4215-828f-290b39180661"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-4111af78-a1ba-4a10-87ad-de99d51da413",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 8: Participate in the education of patients, families, students, trainees, peers, and other health professionals"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:34:12.867Z",
+            "ceasn:dateModified": "2022-05-20T16:34:57.258Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PBLI 8",
+            "ceterms:ctid": "ce-4111af78-a1ba-4a10-87ad-de99d51da413"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-86688346-8827-42f6-af43-331a0c07ac93",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 9: Obtain and utilize information about individual patients, populations of patients, or communities from which patients are drawn to improve care"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:35:11.752Z",
+            "ceasn:dateModified": "2022-05-20T16:35:52.086Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PBLI 9",
+            "ceterms:ctid": "ce-86688346-8827-42f6-af43-331a0c07ac93"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-9109e703-6eb7-43fd-8633-1769845beff0",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 10: Continually identify, analyze, and implement new knowledge, guidelines, standards, technologies, products, or services that have been demonstrated to improve outcomes"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:36:09.653Z",
+            "ceasn:dateModified": "2022-05-20T16:36:48.968Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2731c1f1-5a83-406f-b0a2-220bd00400a9"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PBLI 10",
+            "ceterms:ctid": "ce-9109e703-6eb7-43fd-8633-1769845beff0"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-70e49e6b-b49b-471e-86f3-2132e2adc941",
+            "@type": "ceasn:Competency",
+            "ceasn:comment": {
+                "en-us": [
+                    "Demonstrate interpersonal and communication skills that result in the effective exchange of information and collaboration with patients, their families, and health professionals"
+                ]
+            },
+            "ceasn:competencyCategory": {
+                "en-us": "Domain"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Interpersonal and Communication Skills"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:37:27.845Z",
+            "ceasn:dateModified": "2022-05-20T16:38:49.670Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-4c8b962c-3aa8-49f5-a273-e08ecb46acba",
+                "https://sandbox.credentialengineregistry.org/resources/ce-9fa5e1d6-98d6-4eec-96e3-7a51f39fcef2",
+                "https://sandbox.credentialengineregistry.org/resources/ce-78a425b0-2502-4c3f-b872-6aa0a243d826",
+                "https://sandbox.credentialengineregistry.org/resources/ce-a0013fdd-6ac8-408f-a99b-40d1a2ccb790",
+                "https://sandbox.credentialengineregistry.org/resources/ce-bd538db4-c025-462a-997e-487bbb9be8c9",
+                "https://sandbox.credentialengineregistry.org/resources/ce-5b01ea6f-09c9-424b-93a5-e695e1be4d20",
+                "https://sandbox.credentialengineregistry.org/resources/ce-f940dbb3-9d4a-4eb8-bf70-b008268096e8"
+            ],
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:isTopChildOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceterms:ctid": "ce-70e49e6b-b49b-471e-86f3-2132e2adc941"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-4c8b962c-3aa8-49f5-a273-e08ecb46acba",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "ICS 1: Communicate effectively with patients, families, and the public, as appropriate, across a broad range of socioeconomic and cultural backgrounds"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:48:23.234Z",
+            "ceasn:dateModified": "2022-05-20T16:49:06.201Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-70e49e6b-b49b-471e-86f3-2132e2adc941"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "ICS 1",
+            "ceterms:ctid": "ce-4c8b962c-3aa8-49f5-a273-e08ecb46acba"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-9fa5e1d6-98d6-4eec-96e3-7a51f39fcef2",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "ICS 2: Communicate effectively with colleagues within one’s profession or specialty, other health professionals, and health-related agencies (see also interprofessional collaboration competency (IPC) 7.3)"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:49:24.903Z",
+            "ceasn:dateModified": "2022-05-20T16:50:21.641Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-70e49e6b-b49b-471e-86f3-2132e2adc941"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "ICS 2",
+            "ceterms:ctid": "ce-9fa5e1d6-98d6-4eec-96e3-7a51f39fcef2"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-78a425b0-2502-4c3f-b872-6aa0a243d826",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "ICS 3: Work effectively with others as a member or leader of a health care team or other professional group (see also IPC 7.4)"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:50:31.392Z",
+            "ceasn:dateModified": "2022-05-20T16:51:29.306Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-70e49e6b-b49b-471e-86f3-2132e2adc941"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "ICS 3",
+            "ceterms:ctid": "ce-78a425b0-2502-4c3f-b872-6aa0a243d826"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-a0013fdd-6ac8-408f-a99b-40d1a2ccb790",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "ICS 4: Act in a consultative role to other health professionals"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:51:38.604Z",
+            "ceasn:dateModified": "2022-05-20T16:52:20.956Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-70e49e6b-b49b-471e-86f3-2132e2adc941"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "ICS 4",
+            "ceterms:ctid": "ce-a0013fdd-6ac8-408f-a99b-40d1a2ccb790"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-bd538db4-c025-462a-997e-487bbb9be8c9",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "ICS 5: Maintain comprehensive, timely, and legible medical records"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:52:44.683Z",
+            "ceasn:dateModified": "2022-05-20T16:53:16.485Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-70e49e6b-b49b-471e-86f3-2132e2adc941"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "ICS 5",
+            "ceterms:ctid": "ce-bd538db4-c025-462a-997e-487bbb9be8c9"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-5b01ea6f-09c9-424b-93a5-e695e1be4d20",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "ICS 6: Demonstrate sensitivity, honesty, and compassion in difficult conversations (e.g. about issues such as death, end-of-life issues, adverse events, bad news, disclosure of errors, and other sensitive topics)"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:53:26.871Z",
+            "ceasn:dateModified": "2022-05-20T16:54:20.282Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-70e49e6b-b49b-471e-86f3-2132e2adc941"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "ICS 6",
+            "ceterms:ctid": "ce-5b01ea6f-09c9-424b-93a5-e695e1be4d20"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-f940dbb3-9d4a-4eb8-bf70-b008268096e8",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "ICS 7: Demonstrate insight and understanding about emotions and human responses to emotions that allow one to develop and manage interpersonal interactions"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:54:41.030Z",
+            "ceasn:dateModified": "2022-05-20T16:55:18.811Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-70e49e6b-b49b-471e-86f3-2132e2adc941"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "ICS 7",
+            "ceterms:ctid": "ce-f940dbb3-9d4a-4eb8-bf70-b008268096e8"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-56ccc17e-4c5c-4583-96fe-d6f5466a1d0e",
+            "@type": "ceasn:Competency",
+            "ceasn:comment": {
+                "en-us": [
+                    "Demonstrate a commitment to carrying out professional responsibilities and an\nadherence to ethical principles"
+                ]
+            },
+            "ceasn:competencyCategory": {
+                "en-us": "Domain"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Professionalism"
+            },
+            "ceasn:dateCreated": "2022-05-20T16:55:41.067Z",
+            "ceasn:dateModified": "2022-05-20T16:56:32.832Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-d0f01825-5323-4550-84e9-e8b9962b4e35",
+                "https://sandbox.credentialengineregistry.org/resources/ce-336b0d79-e39e-4b40-936b-2ce1eaa397b1",
+                "https://sandbox.credentialengineregistry.org/resources/ce-c8723f70-5272-435e-bd73-149db0a2bc56",
+                "https://sandbox.credentialengineregistry.org/resources/ce-ac39ca82-66cd-4c4f-8031-bbb30896244d",
+                "https://sandbox.credentialengineregistry.org/resources/ce-19fad760-a596-4655-bdde-1d118196a1ba",
+                "https://sandbox.credentialengineregistry.org/resources/ce-bd5fda51-aaee-4ecb-8371-77c1528f1c13"
+            ],
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:isTopChildOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceterms:ctid": "ce-56ccc17e-4c5c-4583-96fe-d6f5466a1d0e"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-d0f01825-5323-4550-84e9-e8b9962b4e35",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "P 1: Demonstrate compassion, integrity, and respect for others"
+            },
+            "ceasn:dateCreated": "2022-05-20T17:15:52.751Z",
+            "ceasn:dateModified": "2022-05-20T17:16:31.392Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-56ccc17e-4c5c-4583-96fe-d6f5466a1d0e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "P 1",
+            "ceterms:ctid": "ce-d0f01825-5323-4550-84e9-e8b9962b4e35"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-336b0d79-e39e-4b40-936b-2ce1eaa397b1",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "P 2: Demonstrate responsiveness to patient needs that supersedes self-interest"
+            },
+            "ceasn:dateCreated": "2022-05-20T17:17:22.178Z",
+            "ceasn:dateModified": "2022-05-20T17:18:08.269Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-56ccc17e-4c5c-4583-96fe-d6f5466a1d0e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "P 2",
+            "ceterms:ctid": "ce-336b0d79-e39e-4b40-936b-2ce1eaa397b1"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-c8723f70-5272-435e-bd73-149db0a2bc56",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "P 3: Demonstrate respect for patient privacy and autonomy"
+            },
+            "ceasn:dateCreated": "2022-05-20T17:18:29.234Z",
+            "ceasn:dateModified": "2022-05-20T17:19:15.757Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-56ccc17e-4c5c-4583-96fe-d6f5466a1d0e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "P3",
+            "ceterms:ctid": "ce-c8723f70-5272-435e-bd73-149db0a2bc56"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-ac39ca82-66cd-4c4f-8031-bbb30896244d",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "P 4: Demonstrate accountability to patients, society, and the profession"
+            },
+            "ceasn:dateCreated": "2022-05-20T17:19:49.942Z",
+            "ceasn:dateModified": "2022-05-20T17:20:35.533Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-56ccc17e-4c5c-4583-96fe-d6f5466a1d0e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "P4",
+            "ceterms:ctid": "ce-ac39ca82-66cd-4c4f-8031-bbb30896244d"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-19fad760-a596-4655-bdde-1d118196a1ba",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "P 5: Demonstrate sensitivity and responsiveness to a diverse patient population, including but not limited to diversity in gender, age, culture, race, religion, disabilities, and sexual orientation"
+            },
+            "ceasn:dateCreated": "2022-05-20T17:20:48.928Z",
+            "ceasn:dateModified": "2022-05-20T17:21:23.573Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-56ccc17e-4c5c-4583-96fe-d6f5466a1d0e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "P 5",
+            "ceterms:ctid": "ce-19fad760-a596-4655-bdde-1d118196a1ba"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-bd5fda51-aaee-4ecb-8371-77c1528f1c13",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "P 6: Demonstrate a commitment to ethical principles pertaining to provision or withholding of care, confidentiality, informed consent, and business practices, including compliance with relevant laws, policies, and regulations"
+            },
+            "ceasn:dateCreated": "2022-05-20T17:21:40.344Z",
+            "ceasn:dateModified": "2022-05-20T17:22:18.805Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-56ccc17e-4c5c-4583-96fe-d6f5466a1d0e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "P 6",
+            "ceterms:ctid": "ce-bd5fda51-aaee-4ecb-8371-77c1528f1c13"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-f9789572-c595-420d-9ae7-8ed457118619",
+            "@type": "ceasn:Competency",
+            "ceasn:comment": {
+                "en-us": [
+                    "Demonstrate an awareness of and responsiveness to the larger context and system of health care, as well as the ability to call effectively on other resources in the system to provide optimal health care"
+                ]
+            },
+            "ceasn:competencyCategory": {
+                "en-us": "Domain"
+            },
+            "ceasn:competencyText": {
+                "en-us": "System-Based Practice"
+            },
+            "ceasn:dateCreated": "2022-05-20T17:22:43.815Z",
+            "ceasn:dateModified": "2022-05-20T17:23:59.336Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-07c6082f-f29f-44ad-b844-2dc553343f56",
+                "https://sandbox.credentialengineregistry.org/resources/ce-c054f5d5-c77e-47c2-b4d7-fbefa1fdfd5e",
+                "https://sandbox.credentialengineregistry.org/resources/ce-b6be114f-12e1-4a70-8446-70c5203e4a86",
+                "https://sandbox.credentialengineregistry.org/resources/ce-17a479b8-c7a3-460a-8904-13197d4c7124",
+                "https://sandbox.credentialengineregistry.org/resources/ce-ba052ce4-7b3b-47c0-886f-3a85c992607d",
+                "https://sandbox.credentialengineregistry.org/resources/ce-301b7405-6bc2-4997-9f5a-27bccafae563"
+            ],
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:isTopChildOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceterms:ctid": "ce-f9789572-c595-420d-9ae7-8ed457118619"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-07c6082f-f29f-44ad-b844-2dc553343f56",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "SBP 1: Work effectively in various health care delivery settings and systems relevant to one’s clinical specialty"
+            },
+            "ceasn:dateCreated": "2022-05-20T18:49:12.431Z",
+            "ceasn:dateModified": "2022-05-20T18:50:04.932Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f9789572-c595-420d-9ae7-8ed457118619"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "SBP 1",
+            "ceterms:ctid": "ce-07c6082f-f29f-44ad-b844-2dc553343f56"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-c054f5d5-c77e-47c2-b4d7-fbefa1fdfd5e",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "SBP 2: Coordinate patient care within the health care system relevant to one’s clinical specialty"
+            },
+            "ceasn:dateCreated": "2022-05-20T18:51:57.116Z",
+            "ceasn:dateModified": "2022-05-20T18:52:33.193Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f9789572-c595-420d-9ae7-8ed457118619"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "SBP 2",
+            "ceterms:ctid": "ce-c054f5d5-c77e-47c2-b4d7-fbefa1fdfd5e"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-b6be114f-12e1-4a70-8446-70c5203e4a86",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "SBP 3: Incorporate considerations of cost awareness and risk-benefit analysis in patient and/or population based care"
+            },
+            "ceasn:dateCreated": "2022-05-20T18:53:01.861Z",
+            "ceasn:dateModified": "2022-05-20T18:53:48.486Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f9789572-c595-420d-9ae7-8ed457118619"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "SBP 3",
+            "ceterms:ctid": "ce-b6be114f-12e1-4a70-8446-70c5203e4a86"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-17a479b8-c7a3-460a-8904-13197d4c7124",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "SBP 4: Advocate for quality patient care and optimal patient care systems"
+            },
+            "ceasn:dateCreated": "2022-05-20T18:54:11.759Z",
+            "ceasn:dateModified": "2022-05-20T18:54:43.652Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f9789572-c595-420d-9ae7-8ed457118619"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "SBP 4",
+            "ceterms:ctid": "ce-17a479b8-c7a3-460a-8904-13197d4c7124"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-ba052ce4-7b3b-47c0-886f-3a85c992607d",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "SBP 5: Participate in identifying system errors and implementing potential systems solutions"
+            },
+            "ceasn:dateCreated": "2022-05-20T18:55:03.376Z",
+            "ceasn:dateModified": "2022-05-20T18:55:34.308Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f9789572-c595-420d-9ae7-8ed457118619"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "SBP 5",
+            "ceterms:ctid": "ce-ba052ce4-7b3b-47c0-886f-3a85c992607d"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-301b7405-6bc2-4997-9f5a-27bccafae563",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "SBP 6: Perform administrative and practice management responsibilities commensurate with one’s role, abilities, and qualifications"
+            },
+            "ceasn:dateCreated": "2022-05-20T18:56:05.361Z",
+            "ceasn:dateModified": "2022-05-20T18:56:47.743Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f9789572-c595-420d-9ae7-8ed457118619"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "SBP 6",
+            "ceterms:ctid": "ce-301b7405-6bc2-4997-9f5a-27bccafae563"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-a33a1743-0b80-4a14-a4fe-454e64253272",
+            "@type": "ceasn:Competency",
+            "ceasn:comment": {
+                "en-us": [
+                    "Demonstrate the ability to engage in an interprofessional team in a manner that optimizes safe, effective patient and population-centered care"
+                ]
+            },
+            "ceasn:competencyCategory": {
+                "en-us": "Domain"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Interprofessional Collaboration"
+            },
+            "ceasn:dateCreated": "2022-05-20T18:57:08.067Z",
+            "ceasn:dateModified": "2022-05-20T19:13:31.547Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-231062e9-0c8b-4980-bbb6-0bd9f65a48c2",
+                "https://sandbox.credentialengineregistry.org/resources/ce-302e8d7a-41f1-4a1f-be42-7f30e0c2d204",
+                "https://sandbox.credentialengineregistry.org/resources/ce-79e1aa6f-39b3-4206-a99f-f535dfb194f8",
+                "https://sandbox.credentialengineregistry.org/resources/ce-c5c9e61e-b6e5-4f67-b779-a932a1f89520"
+            ],
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:isTopChildOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceterms:ctid": "ce-a33a1743-0b80-4a14-a4fe-454e64253272"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3",
+            "@type": "ceasn:Competency",
+            "ceasn:comment": {
+                "en-us": [
+                    "Demonstrate the qualities required to sustain lifelong personal and professional growth"
+                ]
+            },
+            "ceasn:competencyCategory": {
+                "en-us": "Domain"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Personal and Professional Development"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:06:09.613Z",
+            "ceasn:dateModified": "2022-05-20T19:07:02.579Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-d908febf-3a67-4e04-819a-3a169ec3ef62",
+                "https://sandbox.credentialengineregistry.org/resources/ce-791d2cc8-9d8e-40fe-9e89-49aa16a93ecf",
+                "https://sandbox.credentialengineregistry.org/resources/ce-c7812259-9445-4f60-baeb-02ea2b8a0606",
+                "https://sandbox.credentialengineregistry.org/resources/ce-96abe804-ffee-4d21-8b2a-f898b12795c8",
+                "https://sandbox.credentialengineregistry.org/resources/ce-bd9453ac-9447-48e4-ac50-e5926ba4ea4c",
+                "https://sandbox.credentialengineregistry.org/resources/ce-dfe8bc0e-4dc2-4f4f-ae9d-77c8306bdcbe",
+                "https://sandbox.credentialengineregistry.org/resources/ce-addbb03e-9f73-4d19-9b2c-585c40cc8df7",
+                "https://sandbox.credentialengineregistry.org/resources/ce-43fff294-29a6-4cf3-aa7b-a0b66c69f543"
+            ],
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:isTopChildOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceterms:ctid": "ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-231062e9-0c8b-4980-bbb6-0bd9f65a48c2",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "IPC 1: Work with other health professionals to establish and maintain a climate of mutual respect, dignity, diversity, ethical integrity, and trust"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:12:05.184Z",
+            "ceasn:dateModified": "2022-05-20T19:12:59.712Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a33a1743-0b80-4a14-a4fe-454e64253272"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "IPC 1",
+            "ceterms:ctid": "ce-231062e9-0c8b-4980-bbb6-0bd9f65a48c2"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-302e8d7a-41f1-4a1f-be42-7f30e0c2d204",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "IPC 2: Use the knowledge of one’s own role and those of other professions to appropriately assess and address the health care needs of the patients and populations served"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:13:42.050Z",
+            "ceasn:dateModified": "2022-05-20T19:14:27.009Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a33a1743-0b80-4a14-a4fe-454e64253272"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "IPC 2",
+            "ceterms:ctid": "ce-302e8d7a-41f1-4a1f-be42-7f30e0c2d204"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-79e1aa6f-39b3-4206-a99f-f535dfb194f8",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "IPC 3: Communicate with other health professionals in a responsive and responsible manner that supports the maintenance of health and the treatment of disease in individual patients and populations"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:14:38.466Z",
+            "ceasn:dateModified": "2022-05-20T19:15:31.183Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a33a1743-0b80-4a14-a4fe-454e64253272"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "IPC 3",
+            "ceterms:ctid": "ce-79e1aa6f-39b3-4206-a99f-f535dfb194f8"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-c5c9e61e-b6e5-4f67-b779-a932a1f89520",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "IPC 4: Participate in different team roles to establish, develop, and continuously enhance interprofessional teams to provide patient- and population-centered care that is safe, timely, efficient, effective, and equitable"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:15:58.008Z",
+            "ceasn:dateModified": "2022-05-20T19:16:37.282Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a33a1743-0b80-4a14-a4fe-454e64253272"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "IPC 4",
+            "ceterms:ctid": "ce-c5c9e61e-b6e5-4f67-b779-a932a1f89520"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-d908febf-3a67-4e04-819a-3a169ec3ef62",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PPD 1: Develop the ability to use self-awareness of knowledge, skills, and emotional limitations to engage in appropriate help-seeking behaviors"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:17:27.587Z",
+            "ceasn:dateModified": "2022-05-20T19:18:05.853Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PPD 1",
+            "ceterms:ctid": "ce-d908febf-3a67-4e04-819a-3a169ec3ef62"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-791d2cc8-9d8e-40fe-9e89-49aa16a93ecf",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PPD 2: Demonstrate healthy coping mechanisms to respond to stress"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:18:29.123Z",
+            "ceasn:dateModified": "2022-05-20T19:20:30.921Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PPD 2",
+            "ceterms:ctid": "ce-791d2cc8-9d8e-40fe-9e89-49aa16a93ecf"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-c7812259-9445-4f60-baeb-02ea2b8a0606",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PPD 3: Manage conflict between personal and professional responsibilities"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:20:50.917Z",
+            "ceasn:dateModified": "2022-05-20T19:21:32.186Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PPD 3",
+            "ceterms:ctid": "ce-c7812259-9445-4f60-baeb-02ea2b8a0606"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-96abe804-ffee-4d21-8b2a-f898b12795c8",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PPD 4: Practice flexibility and maturity in adjusting to change with the capacity to alter behavior"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:22:05.974Z",
+            "ceasn:dateModified": "2022-05-20T19:22:34.438Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PPD 4",
+            "ceterms:ctid": "ce-96abe804-ffee-4d21-8b2a-f898b12795c8"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-bd9453ac-9447-48e4-ac50-e5926ba4ea4c",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PPD 5: Demonstrate trustworthiness that makes colleagues feel secure when one is responsible for the care of patients"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:22:59.525Z",
+            "ceasn:dateModified": "2022-05-20T19:23:34.559Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PPD 5",
+            "ceterms:ctid": "ce-bd9453ac-9447-48e4-ac50-e5926ba4ea4c"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-dfe8bc0e-4dc2-4f4f-ae9d-77c8306bdcbe",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PPD 6: Provide leadership skills that enhance team functioning, the learning environment, and/or the health care delivery system"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:23:50.774Z",
+            "ceasn:dateModified": "2022-05-20T19:24:26.391Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PPD 6",
+            "ceterms:ctid": "ce-dfe8bc0e-4dc2-4f4f-ae9d-77c8306bdcbe"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-addbb03e-9f73-4d19-9b2c-585c40cc8df7",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PPD 7: Demonstrate self-confidence that puts patients, families, and members of the health care team at ease"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:24:42.924Z",
+            "ceasn:dateModified": "2022-05-20T19:25:14.602Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PPD 7",
+            "ceterms:ctid": "ce-addbb03e-9f73-4d19-9b2c-585c40cc8df7"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-43fff294-29a6-4cf3-aa7b-a0b66c69f543",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PPD 8: Recognize that ambiguity is part of clinical health care and respond by using appropriate resources in dealing with uncertainty"
+            },
+            "ceasn:dateCreated": "2022-05-20T19:25:36.941Z",
+            "ceasn:dateModified": "2022-05-20T19:26:14.049Z",
+            "ceasn:inLanguage": [
+                "en"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-db5e2ee2-95d3-43cd-84d5-aae0fa1508a3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-8c2da966-9c5a-4d65-aa51-f2808ffab550",
+            "ceasn:listID": "PPD 8",
+            "ceterms:ctid": "ce-43fff294-29a6-4cf3-aa7b-a0b66c69f543"
+        }
+    ]
+
+}

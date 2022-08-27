@@ -1,0 +1,1585 @@
+{
+
+    "@context": "https://credreg.net/ctdlasn/schema/context/json",
+    "@graph": [
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "@type": "ceasn:CompetencyFramework",
+            "ceasn:creator": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a4041983-b1ae-4ad4-a43d-284a5b4b2d73"
+            ],
+            "ceasn:dateCreated": "2022-08-26T15:05:33.681Z",
+            "ceasn:dateModified": "2022-08-26T19:09:45.918Z",
+            "ceasn:description": {
+                "en-us": "Faculty can use this guide as a reference for both feedback and assessment in pre-clinical and clinical settings. Learners can also use this document to understand the core of what is expected of them by the time they graduate. The EPA descriptions themselves delineate the expectations, while the developmental progression laid out from pre-entrustable to entrustable behaviors can serve as the roadmap for achieving them."
+            },
+            "ceasn:hasTopChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-5f9e2dc2-74d9-4ccd-bd54-5483ebcbb9ef",
+                "https://sandbox.credentialengineregistry.org/resources/ce-f4d64b02-151c-467e-a4a3-f66328dfd832"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:name": {
+                "en-us": "Core Entrustable Professional Activities for Entering Residency: Curriculum Developers' Guide"
+            },
+            "ceasn:publisher": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a4041983-b1ae-4ad4-a43d-284a5b4b2d73"
+            ],
+            "ceasn:publisherName": {
+                "en-us": [
+                    "Credential Engine Administration - Sandbox"
+                ]
+            },
+            "ceterms:ctid": "ce-68d27c7f-371a-4854-b770-7208876d244c"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-5f9e2dc2-74d9-4ccd-bd54-5483ebcbb9ef",
+            "@type": "ceasn:Competency",
+            "ceasn:comment": {
+                "en-us": [
+                    "Day 1 residents should be able to perform an accurate complete or focused history and physical exam in a prioritized, organized manner without supervision and with respect for the patient. The history and physical examination should be tailored to the clinical situation and specific patient encounter. This data gathering and patient interaction activity serves as the basis for clinical work and as the building block for patient evaluation and management. Learners need to integrate the scientific foundations of medicine with clinical reasoning skills to guide their information gathering."
+                ]
+            },
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Professional Activity"
+            },
+            "ceasn:competencyText": {
+                "en-us": "EPA 1: Gather a history and perform a physical examination"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-b3c12475-46a2-4a47-a4bb-428aa44db049",
+            "ceasn:dateCreated": "2022-08-26T16:17:16.319Z",
+            "ceasn:dateModified": "2022-08-26T17:45:39.924Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f21465cc-12b8-4ef7-b4c9-face39fab812",
+                "https://sandbox.credentialengineregistry.org/resources/ce-984d200d-4725-4fcb-8429-bf48462cf4dd",
+                "https://sandbox.credentialengineregistry.org/resources/ce-501a0731-d465-48a8-b002-fce03ac31c84"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:isTopChildOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "EPA 1",
+            "ceterms:ctid": "ce-5f9e2dc2-74d9-4ccd-bd54-5483ebcbb9ef"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-f21465cc-12b8-4ef7-b4c9-face39fab812",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "History Functions"
+            },
+            "ceasn:dateCreated": "2022-08-26T16:19:35.970Z",
+            "ceasn:dateModified": "2022-08-26T16:23:54.287Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-5f9d6da2-b0db-4d86-b4ef-e39be233d2f6",
+                "https://sandbox.credentialengineregistry.org/resources/ce-bfa2791e-e042-451a-bc1f-3a6e13b136af",
+                "https://sandbox.credentialengineregistry.org/resources/ce-baa3a435-5c71-4756-9e9b-f63308a463e4",
+                "https://sandbox.credentialengineregistry.org/resources/ce-dc103155-fb3d-48d0-8d61-510ec5e5e8fa",
+                "https://sandbox.credentialengineregistry.org/resources/ce-fd14f8d1-4283-4746-880f-ecaa3073e665",
+                "https://sandbox.credentialengineregistry.org/resources/ce-2f0ddc5c-cacc-47d7-a5fb-c76970bd82a4",
+                "https://sandbox.credentialengineregistry.org/resources/ce-85a7f3a9-a8d9-49ae-8911-066c20d6b2d8",
+                "https://sandbox.credentialengineregistry.org/resources/ce-b86f6f01-76ad-4373-b1ac-e734fd020984"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-5f9e2dc2-74d9-4ccd-bd54-5483ebcbb9ef"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-f21465cc-12b8-4ef7-b4c9-face39fab812"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-984d200d-4725-4fcb-8429-bf48462cf4dd",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Physical Exam Functions"
+            },
+            "ceasn:dateCreated": "2022-08-26T16:20:39.490Z",
+            "ceasn:dateModified": "2022-08-26T16:24:07.989Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-3aafd8f9-c2d8-4d9d-b203-422c99b5dbe5",
+                "https://sandbox.credentialengineregistry.org/resources/ce-f3916f63-4dd5-454a-81c0-7f991a546054",
+                "https://sandbox.credentialengineregistry.org/resources/ce-c87eb041-1351-4b35-bd0c-347145912cc7",
+                "https://sandbox.credentialengineregistry.org/resources/ce-f81ce471-e7a5-47d2-b7a7-014c66b62a50"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-5f9e2dc2-74d9-4ccd-bd54-5483ebcbb9ef"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-984d200d-4725-4fcb-8429-bf48462cf4dd"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-501a0731-d465-48a8-b002-fce03ac31c84",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:dateCreated": "2022-08-26T16:24:27.570Z",
+            "ceasn:dateModified": "2022-08-26T16:25:11.004Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-0851ea4a-5ee2-4e90-b6c8-68d62bee3c07",
+                "https://sandbox.credentialengineregistry.org/resources/ce-091d1c5d-5497-4dab-9225-1381be73dceb",
+                "https://sandbox.credentialengineregistry.org/resources/ce-e291be7b-0b3a-4203-b2ad-5cebb72e78b3",
+                "https://sandbox.credentialengineregistry.org/resources/ce-86c7d970-aa13-4468-87ca-948007f5c46e",
+                "https://sandbox.credentialengineregistry.org/resources/ce-4437dd32-2f25-412d-ac3c-cb74144c5bdb",
+                "https://sandbox.credentialengineregistry.org/resources/ce-8d9c6aa0-3c28-451c-bc9b-ad42a45d2a57",
+                "https://sandbox.credentialengineregistry.org/resources/ce-3e1f5698-6d83-4312-a6bb-ceed3e306d52"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-5f9e2dc2-74d9-4ccd-bd54-5483ebcbb9ef"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-501a0731-d465-48a8-b002-fce03ac31c84"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-5f9d6da2-b0db-4d86-b4ef-e39be233d2f6",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "History Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Obtain a complete and accurate history in an organized fashion."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:28:52.976Z",
+            "ceasn:dateModified": "2022-08-26T16:29:45.178Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f21465cc-12b8-4ef7-b4c9-face39fab812"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-5f9d6da2-b0db-4d86-b4ef-e39be233d2f6"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-bfa2791e-e042-451a-bc1f-3a6e13b136af",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "History Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Demonstrate patient-centered interview skills (attentive to patient verbal and\nnonverbal cues, patient/family culture, social determinants of health, need for\ninterpretive or adaptive services; seeks conceptual context of illness; approaches\nthe patient holistically and demonstrates active listening skills)."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:33:26.745Z",
+            "ceasn:dateModified": "2022-08-26T16:34:03.472Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f21465cc-12b8-4ef7-b4c9-face39fab812"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-bfa2791e-e042-451a-bc1f-3a6e13b136af"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-baa3a435-5c71-4756-9e9b-f63308a463e4",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "History Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Identify pertinent history elements in common presenting situations, symptoms,\ncomplaints, and disease states (acute and chronic)."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:37:19.718Z",
+            "ceasn:dateModified": "2022-08-26T16:37:52.541Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f21465cc-12b8-4ef7-b4c9-face39fab812"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-baa3a435-5c71-4756-9e9b-f63308a463e4"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-dc103155-fb3d-48d0-8d61-510ec5e5e8fa",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "History Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Obtain focused, pertinent histories in urgent, emergent, and consultative settings."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:37:58.965Z",
+            "ceasn:dateModified": "2022-08-26T16:38:27.215Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f21465cc-12b8-4ef7-b4c9-face39fab812"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-dc103155-fb3d-48d0-8d61-510ec5e5e8fa"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-fd14f8d1-4283-4746-880f-ecaa3073e665",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "History Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Consider cultural and other factors that may influence the patient’s description of\nsymptoms."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:38:29.540Z",
+            "ceasn:dateModified": "2022-08-26T16:38:52.524Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f21465cc-12b8-4ef7-b4c9-face39fab812"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-fd14f8d1-4283-4746-880f-ecaa3073e665"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2f0ddc5c-cacc-47d7-a5fb-c76970bd82a4",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "History Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Identify and use alternate sources of information to obtain history when needed,\nincluding but not limited to family members, primary care physicians, living facility,\nand pharmacy staff."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:38:53.947Z",
+            "ceasn:dateModified": "2022-08-26T16:39:36.489Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f21465cc-12b8-4ef7-b4c9-face39fab812"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-2f0ddc5c-cacc-47d7-a5fb-c76970bd82a4"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-85a7f3a9-a8d9-49ae-8911-066c20d6b2d8",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "History Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Demonstrate clinical reasoning in gathering focused information relevant to a\npatient's care."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:39:41.813Z",
+            "ceasn:dateModified": "2022-08-26T16:40:09.979Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f21465cc-12b8-4ef7-b4c9-face39fab812"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-85a7f3a9-a8d9-49ae-8911-066c20d6b2d8"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-b86f6f01-76ad-4373-b1ac-e734fd020984",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "History Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Demonstrate cultural awareness and humility (for example, by recognizing that\none’s own cultural models may be different from others) and awareness of\npotential for bias (conscious and unconscious) in interactions with patients."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:40:11.372Z",
+            "ceasn:dateModified": "2022-08-26T16:40:35.551Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f21465cc-12b8-4ef7-b4c9-face39fab812"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-b86f6f01-76ad-4373-b1ac-e734fd020984"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3aafd8f9-c2d8-4d9d-b203-422c99b5dbe5",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Physical Exam Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Perform a complete and accurate physical exam in logical and fluid sequence."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:45:26.053Z",
+            "ceasn:dateModified": "2022-08-26T16:45:50.708Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-984d200d-4725-4fcb-8429-bf48462cf4dd"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-3aafd8f9-c2d8-4d9d-b203-422c99b5dbe5"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-f3916f63-4dd5-454a-81c0-7f991a546054",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Physical Exam Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Perform a clinically relevant, focused physical exam pertinent to the setting and\npurpose of the patient visit."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:46:01.348Z",
+            "ceasn:dateModified": "2022-08-26T16:46:27.121Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-984d200d-4725-4fcb-8429-bf48462cf4dd"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-f3916f63-4dd5-454a-81c0-7f991a546054"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-c87eb041-1351-4b35-bd0c-347145912cc7",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Physical Exam Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Identify, describe, and document abnormal physical exam findings."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:46:28.456Z",
+            "ceasn:dateModified": "2022-08-26T16:47:01.382Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-984d200d-4725-4fcb-8429-bf48462cf4dd"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-c87eb041-1351-4b35-bd0c-347145912cc7"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-f81ce471-e7a5-47d2-b7a7-014c66b62a50",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Physical Exam Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Demonstrate patient-centered examination techniques that reflect respect for\npatient privacy, comfort, and safety (e.g., explaining physical exam maneuvers,\ntelling the patient what one is doing at each step, keeping patients covered during\nthe examination)."
+            },
+            "ceasn:dateCreated": "2022-08-26T16:47:04.652Z",
+            "ceasn:dateModified": "2022-08-26T16:47:31.487Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-984d200d-4725-4fcb-8429-bf48462cf4dd"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-f81ce471-e7a5-47d2-b7a7-014c66b62a50"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-0851ea4a-5ee2-4e90-b6c8-68d62bee3c07",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 2 :  Gather essential and accurate information about patients and their condition through history-taking, physical examination, and the use of laboratory data, imaging, and other tests"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-d6fc58fe-0f22-4b16-bcf5-67470d174449",
+            "ceasn:dateCreated": "2022-08-26T17:00:47.006Z",
+            "ceasn:dateModified": "2022-08-26T19:19:34.885Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-bb23f5fb-1261-4c15-a2a1-3bc2e1581b42",
+                "https://sandbox.credentialengineregistry.org/resources/ce-4da6779e-cca2-4f0b-bdb9-974dcaee0134"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-501a0731-d465-48a8-b002-fce03ac31c84"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "PC 2",
+            "ceterms:ctid": "ce-0851ea4a-5ee2-4e90-b6c8-68d62bee3c07"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-091d1c5d-5497-4dab-9225-1381be73dceb",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "KP 1: Demonstrate an investigatory and analytic approach to clinical situations"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:02:13.399Z",
+            "ceasn:dateModified": "2022-08-26T17:21:33.817Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-42900622-5998-4425-ab5d-62a84eb158a4",
+                "https://sandbox.credentialengineregistry.org/resources/ce-3c24e2a9-eceb-4c42-b435-1c3238d7a466"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-501a0731-d465-48a8-b002-fce03ac31c84"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "KP 1",
+            "ceterms:ctid": "ce-091d1c5d-5497-4dab-9225-1381be73dceb"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-e291be7b-0b3a-4203-b2ad-5cebb72e78b3",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "ICS 1: Communicate effectively with patients, families, and the public, as appropriate, across a broad range of socioeconomic and cultural backgrounds"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:03:58.132Z",
+            "ceasn:dateModified": "2022-08-26T19:21:36.962Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-8007cd97-ec4f-4afa-abb3-f0ebf4a5d282",
+                "https://sandbox.credentialengineregistry.org/resources/ce-7a9cba3c-cd1d-4bc6-9a6e-786c8eddb338"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-501a0731-d465-48a8-b002-fce03ac31c84"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "ICS 1",
+            "ceterms:ctid": "ce-e291be7b-0b3a-4203-b2ad-5cebb72e78b3"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-86c7d970-aa13-4468-87ca-948007f5c46e",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "ICS 7: Demonstrate insight and understanding about emotions and human responses to emotions that allow one to develop and manage interpersonal interactions"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:04:45.299Z",
+            "ceasn:dateModified": "2022-08-26T19:22:09.569Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-570dd871-7d18-462d-a248-de5c6cef956a",
+                "https://sandbox.credentialengineregistry.org/resources/ce-224a686c-b577-4698-9b54-ed3333e0048c"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-501a0731-d465-48a8-b002-fce03ac31c84"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "ICS 7",
+            "ceterms:ctid": "ce-86c7d970-aa13-4468-87ca-948007f5c46e"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-4437dd32-2f25-412d-ac3c-cb74144c5bdb",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "P 1: Demonstrate compassion, integrity, and respect for others"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:05:49.951Z",
+            "ceasn:dateModified": "2022-08-26T19:22:32.773Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a381ef7b-ab47-491a-9925-1708abc0160d",
+                "https://sandbox.credentialengineregistry.org/resources/ce-6a09428b-7c86-472f-af8b-3743ab92a5f2"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-501a0731-d465-48a8-b002-fce03ac31c84"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "P 1",
+            "ceterms:ctid": "ce-4437dd32-2f25-412d-ac3c-cb74144c5bdb"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-8d9c6aa0-3c28-451c-bc9b-ad42a45d2a57",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "P 3: Demonstrate respect for patient privacy and autonomy"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:06:28.146Z",
+            "ceasn:dateModified": "2022-08-26T19:22:56.877Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-ee56787f-22d2-48dd-8c4a-1ab25c3918fe",
+                "https://sandbox.credentialengineregistry.org/resources/ce-93f90647-3492-4808-b2cf-d3f7260e048f"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-501a0731-d465-48a8-b002-fce03ac31c84"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "P 3",
+            "ceterms:ctid": "ce-8d9c6aa0-3c28-451c-bc9b-ad42a45d2a57"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3e1f5698-6d83-4312-a6bb-ceed3e306d52",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "P 5: Demonstrate sensitivity and responsiveness to a diverse patient population, including but not limited to diversity in gender, age, culture, race, religion, disabilities, and sexual orientation"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:08:17.246Z",
+            "ceasn:dateModified": "2022-08-26T19:23:16.998Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a4526854-85ed-4058-871c-8fc93404b9fa",
+                "https://sandbox.credentialengineregistry.org/resources/ce-86162559-37c1-41c5-aa1d-526bdc0415b4"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-501a0731-d465-48a8-b002-fce03ac31c84"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "P 5",
+            "ceterms:ctid": "ce-3e1f5698-6d83-4312-a6bb-ceed3e306d52"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-bb23f5fb-1261-4c15-a2a1-3bc2e1581b42",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Either gathers too little information or exhaustively gathers information following a template, regardless of the patient's chief complaint, with each piece of information gathered seeming as important as the next. Recalls clinical information in the order elicited. Limited ability to gather, filter, prioritize, and connect pieces of information. Uses analytic reasoning from basic pathophysiology knowledge without ability to link findings to prior clinical encounters. Incorrectly performs and elicits most physical examination maneuvers. May miss key physical exam findings. Does not alter the head-to-toe approach to the physical examination to meet the developmental level or behavioral needs of the patient. Does not seek or is overly reliant on secondary data. (PEDS, IM, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:12:50.198Z",
+            "ceasn:dateModified": "2022-08-26T19:20:10.919Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-0851ea4a-5ee2-4e90-b6c8-68d62bee3c07"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-bb23f5fb-1261-4c15-a2a1-3bc2e1581b42"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-4da6779e-cca2-4f0b-bdb9-974dcaee0134",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behavior"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Clinical experience allows linkage of signs and symptoms of a current patient to those encountered in previous patients. Still relies primarily on analytic reasoning of basic pathophysiology to gather information, but the ability to link current findings to prior clinical encounters allows information to be filtered, prioritized, and synthesized into pertinent positives and negatives as well as broad diagnostic categories. Performs basic physical examination maneuvers correctly and recognizes and correctly interprets abnormal findings. Consistently and successfully uses a developmentally appropriate approach to the physical examination. Seeks and obtains data from secondary sources when needed. (PEDS, IM, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:13:45.549Z",
+            "ceasn:dateModified": "2022-08-26T17:14:25.612Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-0851ea4a-5ee2-4e90-b6c8-68d62bee3c07"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-4da6779e-cca2-4f0b-bdb9-974dcaee0134"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-42900622-5998-4425-ab5d-62a84eb158a4",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Recalls only discrete, isolated bits of information. Tends toward \"intuitive leaps\" to conclusions, often unsupported by the data gathered or the evidence, before fully understanding the learning task or the types of information needed; does not follow a systematic procedure for synthesis, comparison, and evaluation of information, which may result in reasoning that is slow and linear; may have stored knowledge of procedures, rules, and formulas, but, due to a lack of integrated mental models of health and disease, fails to recognize what conditions warrant the application of this knowledge or why it is relevant. Has difficulty recognizing recurring patterns of information. (This is a new milestone created for this document)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:18:26.718Z",
+            "ceasn:dateModified": "2022-08-26T17:21:10.524Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-091d1c5d-5497-4dab-9225-1381be73dceb"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-42900622-5998-4425-ab5d-62a84eb158a4"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3c24e2a9-eceb-4c42-b435-1c3238d7a466",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Is developing an implicit knowledge base that allows more rapid connections, pattern recognition, and clinical reasoning. Can focus cognitive processes to discern relevant information, identify the unknowns, and make connections to solve problems or answer clinical questions via just-in-time-learning. Brings together multiple representations of the problem by comparing, synthesizing, and evaluating. (This is a new milestone created for this document)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:22:52.788Z",
+            "ceasn:dateModified": "2022-08-26T17:23:39.929Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-091d1c5d-5497-4dab-9225-1381be73dceb"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-3c24e2a9-eceb-4c42-b435-1c3238d7a466"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-8007cd97-ec4f-4afa-abb3-f0ebf4a5d282",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Communication with patients and families generally unidirectional and based on a template, without the ability to vary the approach based on a patient's unique demographic, cognitive, physical, cultural, socioeconomic, or situational needs. Frequently uses medical jargon. Does not engage patients and families in discussions of care plans (i.e., does not engage in shared decision making). Respects patient preferences when offered by the patient, but does not actively solicit preferences. Defers or avoids difficult or ambiguous conversations. (SURG, IM, PEDS, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:24:46.009Z",
+            "ceasn:dateModified": "2022-08-26T19:21:02.953Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-e291be7b-0b3a-4203-b2ad-5cebb72e78b3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-8007cd97-ec4f-4afa-abb3-f0ebf4a5d282"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-7a9cba3c-cd1d-4bc6-9a6e-786c8eddb338",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Communication with patients and families generally bidirectional. When based on a template, can adapt to the patient's unique demographic, cognitive, physical, cultural, socioeconomic, or situational needs. Avoids medical jargon. Uses a variety of techniques, including nontechnical language, teach back, appropriate pacing, and small pieces of information to ensure that communication with patients and their families is bidirectional and results in shared decision making. Develops scripts to approach most difficult communication scenarios. (SURG, IM, PEDS, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:26:34.877Z",
+            "ceasn:dateModified": "2022-08-26T17:26:54.861Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-e291be7b-0b3a-4203-b2ad-5cebb72e78b3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-7a9cba3c-cd1d-4bc6-9a6e-786c8eddb338"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-570dd871-7d18-462d-a248-de5c6cef956a",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Does not accurately anticipate or read others' emotions in verbal and nonverbal communication. Is unaware of one's own emotional and behavioral cues and may transmit emotions in communication (e.g., anxiety, exuberance, anger) that can precipitate unintended emotional responses in others. Does not effectively manage strong emotions in self or others. (PEDS)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:27:48.418Z",
+            "ceasn:dateModified": "2022-08-26T17:29:18.431Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-86c7d970-aa13-4468-87ca-948007f5c46e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-570dd871-7d18-462d-a248-de5c6cef956a"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-224a686c-b577-4698-9b54-ed3333e0048c",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Anticipates, reads, and reacts to emotions in real time with appropriate and professional behavior in typical medical communication scenarios, including those evoking very strong emotions. Uses these abilities to gain and maintain therapeutic alliances with others. Atypical or unanticipated situations may still evoke strong emotions in the learner, resulting in an inability to moderate one's behavior and manage the emotions. (PEDS)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:28:17.730Z",
+            "ceasn:dateModified": "2022-08-26T17:28:52.134Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-86c7d970-aa13-4468-87ca-948007f5c46e"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-224a686c-b577-4698-9b54-ed3333e0048c"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-a381ef7b-ab47-491a-9925-1708abc0160d",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Demonstrates lapses in professional conduct, such as through disrespectful interactions or lack of truth-telling, especially under conditions of stress or fatigue or in complicated or uncommon situations. This puts others in the position to remind, enforce, and resolve conflicts. There may be some insight into behavior, but there is an inability to modify behavior when in stressful situations. (PEDS, EM, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:35:01.192Z",
+            "ceasn:dateModified": "2022-08-26T17:35:24.918Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-4437dd32-2f25-412d-ac3c-cb74144c5bdb"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-a381ef7b-ab47-491a-9925-1708abc0160d"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-6a09428b-7c86-472f-af8b-3743ab92a5f2",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "In nearly all circumstances, demonstrates professional conduct, such as through respectful interactions and truth-telling. Has insight into his/her own behavior as well as likely triggers for professionalism lapses and is able to use this information to remain professional. (PEDS, EM, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:35:27.002Z",
+            "ceasn:dateModified": "2022-08-26T17:35:52.007Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-4437dd32-2f25-412d-ac3c-cb74144c5bdb"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-6a09428b-7c86-472f-af8b-3743ab92a5f2"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-ee56787f-22d2-48dd-8c4a-1ab25c3918fe",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Inconsistently considers patient privacy and confidentiality (e.g., may discuss patient information in a public area such as an elevator). Unable to articulate the key components of HIPAA. Does not engage patients and families in discussions of care plans (i.e., shared decision making). Respects patient preferences when offered by the patient but does not actively solicit preferences. (PEDS, IM, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:36:58.497Z",
+            "ceasn:dateModified": "2022-08-26T17:37:31.638Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-8d9c6aa0-3c28-451c-bc9b-ad42a45d2a57"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-ee56787f-22d2-48dd-8c4a-1ab25c3918fe"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-93f90647-3492-4808-b2cf-d3f7260e048f",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Consistently considers patient privacy and confidentiality with rare lapses. Able to articulate the key components of HIPAA. Engages patients and families in discussions of care plans (i.e., shared decision making). Solicits and respects patient preferences. (PEDS, IM, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:37:34.109Z",
+            "ceasn:dateModified": "2022-08-26T17:38:42.232Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-8d9c6aa0-3c28-451c-bc9b-ad42a45d2a57"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-93f90647-3492-4808-b2cf-d3f7260e048f"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-a4526854-85ed-4058-871c-8fc93404b9fa",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Sees the world through the eyes of his own background, is ethnocentric, has trouble understanding and accepting the cultures of others. May generalize based on the patients' gender, age, culture, race, religion, disabilities, and sexual orientation. (PEDS, PSYCH, IM)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:39:53.170Z",
+            "ceasn:dateModified": "2022-08-26T17:40:19.659Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-3e1f5698-6d83-4312-a6bb-ceed3e306d52"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-a4526854-85ed-4058-871c-8fc93404b9fa"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-86162559-37c1-41c5-aa1d-526bdc0415b4",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "EntrustableBehaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Elicits and seeks to fully understand each patient's unique characteristics and needs based on gender, age, culture, race, religion, disabilities, and sexual orientation. Includes these concepts in care plans for patients and families. Families recognize this sensitivity. Demonstrates cultural humility. (PEDS, PSYCH, IM)"
+            },
+            "ceasn:dateCreated": "2022-08-26T17:40:21.181Z",
+            "ceasn:dateModified": "2022-08-26T17:40:52.210Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-3e1f5698-6d83-4312-a6bb-ceed3e306d52"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-86162559-37c1-41c5-aa1d-526bdc0415b4"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-f4d64b02-151c-467e-a4a3-f66328dfd832",
+            "@type": "ceasn:Competency",
+            "ceasn:comment": {
+                "en-us": [
+                    "To be prepared for the first day of residency, all physicians need to be able to integrate\npatient data to formulate an assessment, developing a list of potential diagnoses\nthat can be prioritized and lead to selection of a working diagnosis. Developing a\ndifferential diagnosis is a dynamic and reflective process that requires continuous\nadaptation to avoid common errors of clinical reasoning such as premature closure."
+                ]
+            },
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Professional Activity"
+            },
+            "ceasn:competencyText": {
+                "en-us": "EPA 2: Prioritize a differential diagnosis following a clinical encounter"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-c40b18a0-d86b-4424-8489-045d1ec539e1",
+            "ceasn:dateCreated": "2022-08-26T17:43:53.589Z",
+            "ceasn:dateModified": "2022-08-26T18:06:01.821Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-34fcc1cb-bde1-453f-ac98-a5a5a5185e0d",
+                "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:isTopChildOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "EPA 2",
+            "ceterms:ctid": "ce-f4d64b02-151c-467e-a4a3-f66328dfd832"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-34fcc1cb-bde1-453f-ac98-a5a5a5185e0d",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Functions"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:06:49.942Z",
+            "ceasn:dateModified": "2022-08-26T18:13:31.108Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-0ba12052-7f7d-45cc-8db2-0ee0828b886a",
+                "https://sandbox.credentialengineregistry.org/resources/ce-81f6967b-b9e4-4774-8a2a-688c9fc2175b",
+                "https://sandbox.credentialengineregistry.org/resources/ce-bff91597-e383-470c-909e-b4a4357152e5",
+                "https://sandbox.credentialengineregistry.org/resources/ce-65e00ccd-bbfc-4c32-8abe-bf95766f50b0",
+                "https://sandbox.credentialengineregistry.org/resources/ce-e40ecfc9-cd65-40ce-86a5-716ea50366be",
+                "https://sandbox.credentialengineregistry.org/resources/ce-cfe368c0-4643-4f03-85bf-2cdbd30cfc8c"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f4d64b02-151c-467e-a4a3-f66328dfd832"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-34fcc1cb-bde1-453f-ac98-a5a5a5185e0d"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3c592f93-430d-4b7c-87ec-6006cd13a4f3",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Professional Behavior"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 2: Gather essential and accurate information about patients and their conditions through history-taking, physical examination, and the use of laboratory data, imaging, and other tests"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-d6fc58fe-0f22-4b16-bcf5-67470d174449",
+            "ceasn:dateCreated": "2022-08-26T17:46:49.782Z",
+            "ceasn:dateModified": "2022-08-26T17:47:52.761Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-241d925e-f890-40d5-adc9-bbc06c6cf4fd",
+                "https://sandbox.credentialengineregistry.org/resources/ce-9886eb33-7958-42f1-a061-2c8f193616cf"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "PC 2",
+            "ceterms:ctid": "ce-3c592f93-430d-4b7c-87ec-6006cd13a4f3"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-22af6487-45fc-4ebf-8266-309cf54bf4b4",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PC 4: Interpret laboratory data, imaging studies, and other tests required for the area of practice"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-60fba785-1a3b-4239-b75c-1aa370560d1d" ,
+            "ceasn:dateCreated": "2022-08-26T18:27:18.277Z",
+            "ceasn:dateModified": "2022-08-26T18:28:46.187Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-789fdf27-ba9b-445c-aa17-62b7d92b0ec4",
+                "https://sandbox.credentialengineregistry.org/resources/ce-79461a2e-7273-419e-ba9d-6bff51b2e300"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "PC 4",
+            "ceterms:ctid": "ce-22af6487-45fc-4ebf-8266-309cf54bf4b4"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-79dd2265-5890-41e9-bcbc-16b9e963d253",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "KP 2: Apply established and emerging biophysical scientific principles fundamental to health care for patients and populations"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-d6fc58fe-0f22-4b16-bcf5-67470d174449" ,
+            "ceasn:dateCreated": "2022-08-26T17:50:56.680Z",
+            "ceasn:dateModified": "2022-08-26T19:23:44.970Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-b25971b2-59a4-4363-a394-9b0848ad6b6b",
+                "https://sandbox.credentialengineregistry.org/resources/ce-70693bce-ed62-484c-a756-a0c3224f3233"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "KP 2",
+            "ceterms:ctid": "ce-79dd2265-5890-41e9-bcbc-16b9e963d253"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-a52ed639-85e1-4a7d-901d-23643c0be1bf",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "KP 3: Apply established and emerging principles of clinical sciences to diagnostic and therapeutic decision making, clinical problem solving, and other aspects of evidence-based health careNew Competency"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-5aa88f05-3583-466d-8d28-f122f9df510a" ,
+            "ceasn:dateCreated": "2022-08-26T17:52:50.516Z",
+            "ceasn:dateModified": "2022-08-26T17:53:40.117Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2d41fde9-2ccc-4d04-b256-42b7ea988fac",
+                "https://sandbox.credentialengineregistry.org/resources/ce-0de35e16-856a-45ef-bb01-2666c909869d"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "KP 3",
+            "ceterms:ctid": "ce-a52ed639-85e1-4a7d-901d-23643c0be1bf"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-1e5bbe0b-45cf-45cb-b227-c9ef3be222b3",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "KP 4: Apply principles of epidemiological sciences to the identification of health problems, risk factors, treatment strategies, resources, and disease prevention/health promotion efforts for patients and populations"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-60fba785-1a3b-4239-b75c-1aa370560d1d" ,
+            "ceasn:dateCreated": "2022-08-26T17:54:31.417Z",
+            "ceasn:dateModified": "2022-08-26T17:55:46.434Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-ba140719-9e7a-4252-b089-b5fe29b4958e",
+                "https://sandbox.credentialengineregistry.org/resources/ce-3491f2b4-59b5-4f4b-b790-6bbe519be3f2"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "KP 4",
+            "ceterms:ctid": "ce-1e5bbe0b-45cf-45cb-b227-c9ef3be222b3"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-e611ce2c-e769-4208-bd71-f5bd033b7929",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "ISC 2: Communicate effectively with colleagues within one’s profession or specialty, other health professionals, and health-related agencies (see also interprofessional collaboration competency (IPC) 7.3)"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-9fa5e1d6-98d6-4eec-96e3-7a51f39fcef2" ,
+            "ceasn:dateCreated": "2022-08-26T17:57:00.065Z",
+            "ceasn:dateModified": "2022-08-26T17:57:40.505Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-68433a37-a29f-4f6d-a5da-e62bd87a0a4e",
+                "https://sandbox.credentialengineregistry.org/resources/ce-943af210-702f-4380-ad8f-9db698e0d77b"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "ICS 2",
+            "ceterms:ctid": "ce-e611ce2c-e769-4208-bd71-f5bd033b7929"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-f11e6066-01a5-4aec-b50c-8bdc4c08ae33",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PBLI 1: Identify strengths, deficiencies, and limits in one’s knowledge and expertise"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-82987828-120d-4091-bd75-c0ede2387eb4" ,
+            "ceasn:dateCreated": "2022-08-26T17:58:21.859Z",
+            "ceasn:dateModified": "2022-08-26T17:58:58.776Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-2234ca73-cc7e-4cd0-a5f2-1a42792daee7",
+                "https://sandbox.credentialengineregistry.org/resources/ce-e3459a06-94f0-4e0e-b7a2-ec842e395b14"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "PBLI 1",
+            "ceterms:ctid": "ce-f11e6066-01a5-4aec-b50c-8bdc4c08ae33"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-7d1c4193-6e95-4e1c-a7c6-18bb4eb55630",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "PPD 8:  Recognize that ambiguity is part of clinical health care and respond by using appropriate resources in dealing with uncertainty"
+            },
+            "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-43fff294-29a6-4cf3-aa7b-a0b66c69f543" ,
+            "ceasn:dateCreated": "2022-08-26T18:01:38.090Z",
+            "ceasn:dateModified": "2022-08-26T18:02:22.998Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-cb8a68c8-fc96-4cc3-959e-298357cc255d",
+                "https://sandbox.credentialengineregistry.org/resources/ce-9a561cba-839c-4302-9e90-e9be67f537ad"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceasn:listID": "PPD 8",
+            "ceterms:ctid": "ce-7d1c4193-6e95-4e1c-a7c6-18bb4eb55630"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Competency"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Critical Competency"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:08:34.376Z",
+            "ceasn:dateModified": "2022-08-26T18:09:08.018Z",
+            "ceasn:hasChild": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-3c592f93-430d-4b7c-87ec-6006cd13a4f3",
+                "https://sandbox.credentialengineregistry.org/resources/ce-22af6487-45fc-4ebf-8266-309cf54bf4b4",
+                "https://sandbox.credentialengineregistry.org/resources/ce-79dd2265-5890-41e9-bcbc-16b9e963d253",
+                "https://sandbox.credentialengineregistry.org/resources/ce-a52ed639-85e1-4a7d-901d-23643c0be1bf",
+                "https://sandbox.credentialengineregistry.org/resources/ce-1e5bbe0b-45cf-45cb-b227-c9ef3be222b3",
+                "https://sandbox.credentialengineregistry.org/resources/ce-e611ce2c-e769-4208-bd71-f5bd033b7929",
+                "https://sandbox.credentialengineregistry.org/resources/ce-f11e6066-01a5-4aec-b50c-8bdc4c08ae33",
+                "https://sandbox.credentialengineregistry.org/resources/ce-7d1c4193-6e95-4e1c-a7c6-18bb4eb55630"
+            ],
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f4d64b02-151c-467e-a4a3-f66328dfd832"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-241d925e-f890-40d5-adc9-bbc06c6cf4fd",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Either gathers too little information or exhaustively gathers information following a template, regardless of the patient's chief complaint, with each piece of information gathered seeming as important as the next. Recalls clinical information in the order elicited. Limited ability to gather, filter, prioritize, and connect pieces of information. Uses analytic reasoning from basic pathophysiology knowledge without ability to link findings to prior clinical encounters. Incorrectly performs and elicits most physical examination maneuvers. May miss key physical exam findings. Does not alter the head-to-toe approach to the physical examination to meet the developmental level or behavioral needs of the patient. Does not seek or is overly reliant on secondary data. (PEDS, IM, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:46:26.717Z",
+            "ceasn:dateModified": "2022-08-26T18:47:50.328Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-3c592f93-430d-4b7c-87ec-6006cd13a4f3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-241d925e-f890-40d5-adc9-bbc06c6cf4fd"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-9886eb33-7958-42f1-a061-2c8f193616cf",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Clinical experience allows linkage of signs and symptoms of a current patient to those encountered in previous patients. Still relies primarily on analytic reasoning of basic pathophysiology to gather information, but the ability to link current findings to prior clinical encounters allows information to be filtered, prioritized, and synthesized into pertinent positives and negatives as well as broad diagnostic categories. Performs basic physical examination maneuvers correctly and recognizes and correctly interprets abnormal findings. Consistently and successfully uses a developmentally appropriate approach to the physical examination. Seeks and obtains data from secondary sources when needed. (PEDS, IM, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:48:14.918Z",
+            "ceasn:dateModified": "2022-08-26T18:48:36.969Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-3c592f93-430d-4b7c-87ec-6006cd13a4f3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-9886eb33-7958-42f1-a061-2c8f193616cf"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-789fdf27-ba9b-445c-aa17-62b7d92b0ec4",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Is inconsistent in interpreting basic diagnostic tests accurately. Does not understand the concepts of pre-test probability and test-performance characteristics. (IM, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:49:19.505Z",
+            "ceasn:dateModified": "2022-08-26T18:50:01.736Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-22af6487-45fc-4ebf-8266-309cf54bf4b4"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-789fdf27-ba9b-445c-aa17-62b7d92b0ec4"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-79461a2e-7273-419e-ba9d-6bff51b2e300",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Consistently interprets basic diagnostic tests accurately. Still needs assistance with the concepts of pre-test probability and test-performance characteristics. (IM, PSYCH)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:50:23.091Z",
+            "ceasn:dateModified": "2022-08-26T18:50:42.765Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-22af6487-45fc-4ebf-8266-309cf54bf4b4"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-79461a2e-7273-419e-ba9d-6bff51b2e300"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-b25971b2-59a4-4363-a394-9b0848ad6b6b",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "May remember and understand biophysical scientific principles but lacks the ability to apply the knowledge to common medical and surgical conditions and basic preventive care. (IM, PEDS)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:51:11.523Z",
+            "ceasn:dateModified": "2022-08-26T18:51:29.861Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-79dd2265-5890-41e9-bcbc-16b9e963d253"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-b25971b2-59a4-4363-a394-9b0848ad6b6b"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-70693bce-ed62-484c-a756-a0c3224f3233",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Possesses sufficient biophysical scientific knowledge and the ability to apply that required knowledge to common medical and surgical conditions and basic preventive care (e.g., can make a diagnosis, recommend initial management, and recognize variation in the presentation of common medical or surgical conditions). (IM, PEDS)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:51:47.351Z",
+            "ceasn:dateModified": "2022-08-26T18:52:04.907Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-79dd2265-5890-41e9-bcbc-16b9e963d253"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-70693bce-ed62-484c-a756-a0c3224f3233"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2d41fde9-2ccc-4d04-b256-42b7ea988fac",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "May remember and understand clinical science principles but lacks the ability to apply the knowledge to common medical and surgical conditions and basic preventive care. (IM, PEDS, SURG)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:52:59.757Z",
+            "ceasn:dateModified": "2022-08-26T18:53:15.580Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a52ed639-85e1-4a7d-901d-23643c0be1bf"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-2d41fde9-2ccc-4d04-b256-42b7ea988fac"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-0de35e16-856a-45ef-bb01-2666c909869d",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Possesses sufficient clinical science knowledge and the ability to apply that required knowledge to common medical and surgical conditions and basic preventive care (e.g., can make a diagnosis, recommend initial management, and recognize variation in the presentation of common medical and surgical conditions). (IM, PEDS, SURG)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:53:45.738Z",
+            "ceasn:dateModified": "2022-08-26T18:54:01.905Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-a52ed639-85e1-4a7d-901d-23643c0be1bf"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-0de35e16-856a-45ef-bb01-2666c909869d"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-ba140719-9e7a-4252-b089-b5fe29b4958e",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "May remember and understand epidemiologic principles but lacks the ability to apply the knowledge to common medical and surgical conditions and basic preventive care. (IM, PEDS, SURG)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:54:28.385Z",
+            "ceasn:dateModified": "2022-08-26T18:54:46.269Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-1e5bbe0b-45cf-45cb-b227-c9ef3be222b3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-ba140719-9e7a-4252-b089-b5fe29b4958e"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3491f2b4-59b5-4f4b-b790-6bbe519be3f2",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Possesses sufficient knowledge of clinical epidemiology and the ability to apply that required knowledge to common medical and surgical conditions and basic preventive care (e.g., can make a diagnosis, recommend initial management, and recognize variation in the presentation of common medical or surgical conditions). (IM, PEDS, SURG)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:55:05.230Z",
+            "ceasn:dateModified": "2022-08-26T18:55:29.858Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-1e5bbe0b-45cf-45cb-b227-c9ef3be222b3"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-3491f2b4-59b5-4f4b-b790-6bbe519be3f2"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-68433a37-a29f-4f6d-a5da-e62bd87a0a4e",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Often communicates from a template or prompt with rigid rules-based recitation of facts. Communication does not change based on context, audience, or situation. Uses unidirectional communication that fails to encourage ideas or opinions from other team members. Does not match communication tool to situation (e.g., email, telephone, pager, texting, electronic health record [EHR], face-to-face). Defers or avoids difficult or ambiguous conversations. (IPEC, PEDS, IM)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:56:20.787Z",
+            "ceasn:dateModified": "2022-08-26T18:56:37.595Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-e611ce2c-e769-4208-bd71-f5bd033b7929"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-68433a37-a29f-4f6d-a5da-e62bd87a0a4e"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-943af210-702f-4380-ad8f-9db698e0d77b",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Listens actively and encourages ideas and opinions from other team members. Successfully tailors communication strategy and message to the audience, purpose, and context in most situations. Fully aware of the purpose of the communication; can efficiently tell a story and make an argument. Beginning to improvise in unfamiliar situations. Generally matches the communication tool to the situation. Discusses care plans with the team and keeps them up to date. Engages others (e.g., supervisors) to help with feedback to other team members even when those conversations are difficult or uncomfortable. (IPEC, PEDS, IM)"
+            },
+            "ceasn:dateCreated": "2022-08-26T18:56:58.448Z",
+            "ceasn:dateModified": "2022-08-26T18:57:13.152Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-e611ce2c-e769-4208-bd71-f5bd033b7929"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-943af210-702f-4380-ad8f-9db698e0d77b"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2234ca73-cc7e-4cd0-a5f2-1a42792daee7",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Relies on external prompts for understanding one's strengths, deficiencies, and limits. The learner acknowledges these external assessments, but understanding of performance is superficial and limited to the overall grade or bottom line; there is little understanding of how the performance measure relates in a meaningful way to the learner's specific level of knowledge, skills, and attitudes. The lack of reflection and insight into limitations results in not recognizing when help is needed, sometimes causing unintended consequences for patients or missed opportunities for learning and self-improvement. (IM, PEDS)"
+            },
+            "ceasn:dateCreated": "2022-08-26T19:00:44.837Z",
+            "ceasn:dateModified": "2022-08-26T19:01:54.274Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f11e6066-01a5-4aec-b50c-8bdc4c08ae33"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-2234ca73-cc7e-4cd0-a5f2-1a42792daee7"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-e3459a06-94f0-4e0e-b7a2-ec842e395b14",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Relies primarily on internal prompts for understanding one's strengths, deficiencies and limits through a process of reflection and insight. Reflection may be in response to uncertainty, discomfort, or tension in completing clinical duties; a critical incident; or suboptimal practice or outcomes. Recognizes limitations and has developed a personal value system of help-seeking for the sake of the patient that supersedes any perceived value of physician autonomy, resulting in appropriate requests for help when needed. (IM, PEDS)"
+            },
+            "ceasn:dateCreated": "2022-08-26T19:02:21.267Z",
+            "ceasn:dateModified": "2022-08-26T19:02:43.321Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-f11e6066-01a5-4aec-b50c-8bdc4c08ae33"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-e3459a06-94f0-4e0e-b7a2-ec842e395b14"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-cb8a68c8-fc96-4cc3-959e-298357cc255d",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Pre-Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Feels overwhelmed and inadequate when faced with uncertainty or ambiguity. Seeks only self or self-available resources to manage response to uncertainty. The resultant response is influenced by the learner's preexisting state of risk aversion or risk taking. Feels compelled to make sure that patients understand full potential for negative outcome (defensive and protective of physician), thus often neglecting the patient's need for hope. (PEDS)"
+            },
+            "ceasn:dateCreated": "2022-08-26T19:04:24.139Z",
+            "ceasn:dateModified": "2022-08-26T19:04:44.458Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-7d1c4193-6e95-4e1c-a7c6-18bb4eb55630"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-cb8a68c8-fc96-4cc3-959e-298357cc255d"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-9a561cba-839c-4302-9e90-e9be67f537ad",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Entrustable Behaviors"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Anticipates the likelihood of uncertainty at the time of diagnostic deliberation. Uses uncertainty as a prompt or motivation to seek information or understanding of what is unknown. Still struggles with balancing uncertainty and hope in discussions with patients and families, tending to err by emphasizing uncertainty, especially if risk averse (e.g., in diagnosis or prognosis). (PEDS)"
+            },
+            "ceasn:dateCreated": "2022-08-26T19:05:05.969Z",
+            "ceasn:dateModified": "2022-08-26T19:05:26.677Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-7d1c4193-6e95-4e1c-a7c6-18bb4eb55630"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-9a561cba-839c-4302-9e90-e9be67f537ad"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-0ba12052-7f7d-45cc-8db2-0ee0828b886a",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Synthesize essential information from the previous records, history, physical exam,\nand initial diagnostic evaluations."
+            },
+            "ceasn:dateCreated": "2022-08-26T19:06:42.815Z",
+            "ceasn:dateModified": "2022-08-26T19:06:55.855Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-34fcc1cb-bde1-453f-ac98-a5a5a5185e0d"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-0ba12052-7f7d-45cc-8db2-0ee0828b886a"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-81f6967b-b9e4-4774-8a2a-688c9fc2175b",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Integrate information as it emerges to continuously update differential diagnosis."
+            },
+            "ceasn:dateCreated": "2022-08-26T19:07:48.686Z",
+            "ceasn:dateModified": "2022-08-26T19:08:01.368Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-34fcc1cb-bde1-453f-ac98-a5a5a5185e0d"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-81f6967b-b9e4-4774-8a2a-688c9fc2175b"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-bff91597-e383-470c-909e-b4a4357152e5",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Integrate the scientific foundations of medicine with clinical reasoning skills to\ndevelop a differential diagnosis and a working diagnosis."
+            },
+            "ceasn:dateCreated": "2022-08-26T19:08:29.933Z",
+            "ceasn:dateModified": "2022-08-26T19:08:41.574Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-34fcc1cb-bde1-453f-ac98-a5a5a5185e0d"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-bff91597-e383-470c-909e-b4a4357152e5"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-65e00ccd-bbfc-4c32-8abe-bf95766f50b0",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Engage with supervisors and team members for endorsement and verification of\nthe working diagnosis in developing a management plan."
+            },
+            "ceasn:dateCreated": "2022-08-26T19:09:09.912Z",
+            "ceasn:dateModified": "2022-08-26T19:09:22.593Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-34fcc1cb-bde1-453f-ac98-a5a5a5185e0d"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-65e00ccd-bbfc-4c32-8abe-bf95766f50b0"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-e40ecfc9-cd65-40ce-86a5-716ea50366be",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Explain and document the clinical reasoning that led to the working diagnosis in a\nmanner that is transparent to all members of the health care team."
+            },
+            "ceasn:dateCreated": "2022-08-26T19:09:23.968Z",
+            "ceasn:dateModified": "2022-08-26T19:09:44.554Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-34fcc1cb-bde1-453f-ac98-a5a5a5185e0d"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-e40ecfc9-cd65-40ce-86a5-716ea50366be"
+        },
+        {
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-cfe368c0-4643-4f03-85bf-2cdbd30cfc8c",
+            "@type": "ceasn:Competency",
+            "ceasn:competencyCategory": {
+                "en-us": "Function"
+            },
+            "ceasn:competencyText": {
+                "en-us": "Manage ambiguity in a differential diagnosis for self and patient and respond\nopenly to questions and challenges from patients and other members of the\nhealth care team."
+            },
+            "ceasn:dateCreated": "2022-08-26T19:09:45.724Z",
+            "ceasn:dateModified": "2022-08-26T19:10:03.789Z",
+            "ceasn:inLanguage": [
+                "en-US"
+            ],
+            "ceasn:isChildOf": [
+                "https://sandbox.credentialengineregistry.org/resources/ce-34fcc1cb-bde1-453f-ac98-a5a5a5185e0d"
+            ],
+            "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
+            "ceterms:ctid": "ce-cfe368c0-4643-4f03-85bf-2cdbd30cfc8c"
+        }
+    ]
+
+}
+
