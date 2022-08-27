@@ -902,30 +902,30 @@
             "ceterms:ctid": "ce-34fcc1cb-bde1-453f-ac98-a5a5a5185e0d"
         },
         {
-            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3c592f93-430d-4b7c-87ec-6006cd13a4f3",
+            "@id": "https://sandbox.credentialengineregistry.org/resources/ce-0851ea4a-5ee2-4e90-b6c8-68d62bee3c07",
             "@type": "ceasn:Competency",
             "ceasn:competencyCategory": {
-                "en-us": "Entrustable Professional Behavior"
+                "en-us": "Critical Competency"
             },
             "ceasn:competencyText": {
-                "en-us": "PC 2: Gather essential and accurate information about patients and their conditions through history-taking, physical examination, and the use of laboratory data, imaging, and other tests"
+                "en-us": "PC 2 :  Gather essential and accurate information about patients and their condition through history-taking, physical examination, and the use of laboratory data, imaging, and other tests"
             },
             "ceasn:derivedFrom": "https://sandbox.credentialengineregistry.org/resources/ce-d6fc58fe-0f22-4b16-bcf5-67470d174449",
-            "ceasn:dateCreated": "2022-08-26T17:46:49.782Z",
-            "ceasn:dateModified": "2022-08-26T17:47:52.761Z",
+            "ceasn:dateCreated": "2022-08-26T17:00:47.006Z",
+            "ceasn:dateModified": "2022-08-26T19:19:34.885Z",
             "ceasn:hasChild": [
-                "https://sandbox.credentialengineregistry.org/resources/ce-241d925e-f890-40d5-adc9-bbc06c6cf4fd",
-                "https://sandbox.credentialengineregistry.org/resources/ce-9886eb33-7958-42f1-a061-2c8f193616cf"
+                "https://sandbox.credentialengineregistry.org/resources/ce-bb23f5fb-1261-4c15-a2a1-3bc2e1581b42",
+                "https://sandbox.credentialengineregistry.org/resources/ce-4da6779e-cca2-4f0b-bdb9-974dcaee0134"
             ],
             "ceasn:inLanguage": [
                 "en-US"
             ],
             "ceasn:isChildOf": [
-                "https://sandbox.credentialengineregistry.org/resources/ce-b099fb71-8804-4d13-bbb3-f112b46dc7ad"
+                "https://sandbox.credentialengineregistry.org/resources/ce-501a0731-d465-48a8-b002-fce03ac31c84"
             ],
             "ceasn:isPartOf": "https://sandbox.credentialengineregistry.org/resources/ce-68d27c7f-371a-4854-b770-7208876d244c",
             "ceasn:listID": "PC 2",
-            "ceterms:ctid": "ce-3c592f93-430d-4b7c-87ec-6006cd13a4f3"
+            "ceterms:ctid": "ce-0851ea4a-5ee2-4e90-b6c8-68d62bee3c07"
         },
         {
             "@id": "https://sandbox.credentialengineregistry.org/resources/ce-22af6487-45fc-4ebf-8266-309cf54bf4b4",
