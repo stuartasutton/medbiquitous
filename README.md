@@ -5,14 +5,16 @@ The Association of American Medical Colleges (AAMC) has a competency framework t
 
 The purpose of the [*Core Entrustable Professional Activities for Entering Residency: Curriculum Developer's Guide*](https://store.aamc.org/downloadable/download/sample/sample_id/63/%20) framework is to contextualize and relate the 58 general physicians competencies in the [*GeneralPhysicianCompetencies*](https://sandbox.credentialengine.org/publisher/competencies/?frameworkctid=ce-8c2da966-9c5a-4d65-aa51-f2808ffab550) (Secondary Source) framework to the 13 expected activities (EPAs) in the [*ExpectedBehaviors*](https://sandbox.credentialengine.org/publisher/competencies/?frameworkctid=ce-56493611-b46b-4658-88d4-f80c0427f011) (Secondary Source) framework.  As a result, the [*CoreEntrustableBehaviors*](https://sandbox.credentialengine.org/publisher/competencies) reuses EPAs and competencies by importing all (or desired parts) of them from the Secondary Source files.
 
-All but 3 of the competencies in the [*GeneralPhysicianCompetencies*](https://sandbox.credentialengine.org/publisher/competencies/?frameworkctid=ce-8c2da966-9c5a-4d65-aa51-f2808ffab550) Secondary Source framework are assigned to from 2 to 13 of the EPAs in the [*CoreEntrustableBehaviors*](https://sandbox.credentialengine.org/publisher/competencies) Primary File .  
+All but 3 of the competencies in the [*GeneralPhysicianCompetencies*](https://sandbox.credentialengine.org/publisher/competencies/?frameworkctid=ce-8c2da966-9c5a-4d65-aa51-f2808ffab550) Secondary Source framework are assigned to from 2 to 13 of the EPAs in the [*CoreEntrustableBehaviors*](https://sandbox.credentialengine.org/publisher/competencies) Primary File .
+
+The following process was followed with the editor:
 
 * First, the 13 EPAs are imported into the [*CoreEntrustableBehaviors*](https://sandbox.credentialengine.org/publisher/competencies) Primary File as derivitaive nodes from the [*ExpectedBehaviors*](https://sandbox.credentialengine.org/publisher/competencies/?frameworkctid=ce-56493611-b46b-4658-88d4-f80c0427f011) Secondary Source File;
 
-* Second, each of the 58 the competencies in the [*GeneralPhysicianCompetencies*](https://sandbox.credentialengine.org/publisher/competencies/?frameworkctid=ce-8c2da966-9c5a-4d65-aa51-f2808ffab550) Secondary Source framework are imported into the Primary File as a derivative node from the Secondary File (see JSON-LD lines 391-416) and assigned to a prcific (here EPA 1_; and then
+* Second, each of the 58 the competencies in the [*GeneralPhysicianCompetencies*](https://sandbox.credentialengine.org/publisher/competencies/?frameworkctid=ce-8c2da966-9c5a-4d65-aa51-f2808ffab550) Secondary Source framework are imported into the Primary File as derivative nodes from the Secondary File (see JSON-LD lines 391-416) and assigned to the first of the 13 EPAs to which the competency has been assigned; and
 
-* copy and pasted that node on EPA 2 (JSON-LD lines 904-929). The Copy and Paste function would make it possible to import once and then copy/paste. So this is doable if the search functionality made it possible to find the competency to import in the first place.
-
+* Using the editor's copy-and-pasted functionality, each competency that hase bee assigned to a subsequent EPA is duplicated (e.g., see JSON-LD lines 904-929). 
+* 
 ### CaSS Editor Dependencies
 
 * Import competencies from other frameworks
